@@ -12,7 +12,6 @@ conda env create -f environments.yml
 
 # Use TensorFlow with GPU
 conda env create -f environment-gpu.yml
-```
 
 # To activate this environment, use:
 source activate env_name
