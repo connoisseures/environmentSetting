@@ -14,6 +14,14 @@ conda env create -f environments.yml
 conda env create -f environment-gpu.yml
 ```
 
+# To activate this environment, use:
+source activate env_name
+
+# To deactivate this environment, use:
+source deactivate env_name
+```
+
+
 Or you can manually install the required libraries (see the contents of the environemnt*.yml files) using pip.
 
 
