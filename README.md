@@ -24,8 +24,7 @@ source deactivate env_name
 Or you can manually install the required libraries (see the contents of the environemnt*.yml files) using pip.
 
 
-## Installation 
-
-# error when installing TensorFlow 
+## Issue on Installation 
+error when installing TensorFlow 
 ImportError: /lib64/libc.so.6: version `GLIBC_2.XX' not found
 https://blog.csdn.net/ChenVast/article/details/79103288
