@@ -29,6 +29,7 @@ Error when installing TensorFlow
 (1) ImportError: /lib64/libc.so.6: version `GLIBC_2.XX' not found
 https://github.com/tensorflow/tensorflow/issues/53
 
+```
 $ cd /tmp
 $ wget http://launchpadlibrarian.net/137699828/libc6_2.17-0ubuntu5_amd64.deb
 $ wget http://launchpadlibrarian.net/137699829/libc6-dev_2.17-0ubuntu5_amd64.deb
@@ -44,4 +45,4 @@ Or prepare a script, py_tf:
 LD_LIBRARY_PATH=/home/yourname/anaconda3/myLib/libc6_2.17/lib/x86_64-linux-gnu/ /home/yourname/anaconda3/myLib/libc6_2.17/lib/x86_64-linux-gnu/ld-2.17.so /home/yourname/anaconda3/envs/tf_keras/bin/python $1
 
 $ py_tf cnn.py
-
+```
