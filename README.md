@@ -27,6 +27,15 @@ Or you can manually install the required libraries (see the contents of the envi
 ## Issue on Installation 
 Error when installing TensorFlow
 
+- For conda, keep in mind the scripts are written in BASH (not SH), so therefore you must execute the installer using bash:
+http://astroconda.readthedocs.io/en/latest/getting_started.html
+
+```
+change to bash shell
+$ bash
+$ source activate env_name
+```
+
 - ImportError: /lib64/libc.so.6: version `GLIBC_2.XX' not found
 https://github.com/tensorflow/tensorflow/issues/53
 
