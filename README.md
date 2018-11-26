@@ -18,6 +18,9 @@ source activate env_name
 
 # To deactivate this environment, use:
 source deactivate env_name
+
+# To remove a env
+conda env remove -n ENV_NAME
 ```
 
 
