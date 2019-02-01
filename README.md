@@ -60,3 +60,13 @@ LD_LIBRARY_PATH=/home/yourname/anaconda3/myLib/libc6_2.17/lib/x86_64-linux-gnu/ 
 
 $ py_tf cnn.py
 ```
+
+
+## quick note
+### How to forward X over SSH to run graphics applications remotely?
+```
+belden@skretting:~$ ssh -X blyman@the-server
+```
+
+### scp
+http://www.hypexr.org/linux_scp_help.php
