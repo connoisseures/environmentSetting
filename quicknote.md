@@ -17,3 +17,19 @@ def get_image_subdir(self, path):
           np.random.shuffle(filelists[d])
       return filelists, size_of_filelists
 ```
+
+https://cmdlinetips.com/2012/09/three-ways-to-write-text-to-a-file-in-python/
+
+
+The easiest way to simply create a file without truncating it in case it exists is:
+
+open('my_file.txt', 'a').close()
+
+https://docs.python.org/3/library/os.path.html
+
+
+https://pyformat.info/
+
+https://www.programiz.com/python-programming/methods/string/format
+
+
