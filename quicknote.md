@@ -33,3 +33,4 @@ https://pyformat.info/
 https://www.programiz.com/python-programming/methods/string/format
 
 
+https://docs.python.org/3/faq/programming.html#how-do-i-write-a-function-with-output-parameters-call-by-reference
