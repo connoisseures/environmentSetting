@@ -34,3 +34,9 @@ https://www.programiz.com/python-programming/methods/string/format
 
 
 https://docs.python.org/3/faq/programming.html#how-do-i-write-a-function-with-output-parameters-call-by-reference
+
+
+https://stackoverflow.com/questions/8270092/remove-all-whitespace-in-a-string-in-python
+
+
+https://stackoverflow.com/questions/13033278/image-size-python-opencv/23207185
