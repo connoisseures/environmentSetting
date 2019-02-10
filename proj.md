@@ -12,27 +12,27 @@
 - VideoForAutomaticAnotation.log
 
 
-Data Preparation 
+## Data Preparation 
 
-SSD_V2_with_face dataset 
-count: 240k
-False Positive set (20% of V2)
-CCTA
-count: 5k 
-OxPet
-count: 22k
-inVideo
-count: 21k
+### SSD_V2_with_face dataset 
+- count: 240k
+### False Positive set (20% of V2)
+#### CCTA
+- count: 5k 
+#### OxPet
+- count: 22k
+#### inVideo
+- count: 21k
 
-Validation Plan 
-
-
-
-Work Environment 
+## Validation Plan 
 
 
 
-config file setting 
+## Work Environment 
+
+
+
+## config file setting 
 
 for both train and validation set 
 tfrecord path 
