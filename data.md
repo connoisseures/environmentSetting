@@ -30,3 +30,35 @@ project
     │   file021.txt
     │   file022.txt
 ```
+
+# Data Placement 
+
+The data set is placed in the DATAPOOL, which is a repository to park data. 
+Within DATAPOOL, we have the following sub-directory. 
+
+```
+DATAPOOL
+│   README.md
+│
+└───dataset_ssd_face
+|   |
+│   └───ssd_train_v2_wi_faces
+|   │            
+|   └───ssd_test_v7_s
+│   
+└───fp_selection
+|   |
+│   └───<YearDate>_<hourMin> (a fold is created when FP data is selected)
+|       │   CCTA.tar.gz
+|       │   Oxford-iiit_pet.tar.gz
+|       │   video_crops.tar.gz
+│   
+└───fp_source (sources of collected false positive data set)
+    │   CaltechCameraTraps
+    │   Oxford-iiit_pet
+    |   video_crops
+    |   raw
+
+
+DATAPOOL=/mnt/data-pcie1/zf.working/
+```
