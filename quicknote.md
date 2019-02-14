@@ -45,9 +45,9 @@ https://stackoverflow.com/questions/8270092/remove-all-whitespace-in-a-string-in
 https://stackoverflow.com/questions/13033278/image-size-python-opencv/23207185
 
 
-- Python syntax to delete a folder
-      - shutil.rmtree()
-      - https://stackoverflow.com/questions/6996603/delete-a-file-or-folder
++ Python syntax to delete a folder
+  - shutil.rmtree()
+  - https://stackoverflow.com/questions/6996603/delete-a-file-or-folder
 
 ```python
 #!/usr/bin/python
