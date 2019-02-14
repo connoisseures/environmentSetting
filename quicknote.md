@@ -1,3 +1,6 @@
+Python
+===============
+
 ### python
 
 ```python
@@ -42,10 +45,10 @@ https://stackoverflow.com/questions/8270092/remove-all-whitespace-in-a-string-in
 https://stackoverflow.com/questions/13033278/image-size-python-opencv/23207185
 
 
-- Python syntax to delete a folder
--- shutil.rmtree()
--- Example for shutil.rmtree()
-```
+#### Python syntax to delete a folder
+- shutil.rmtree()
+
+```python
 #!/usr/bin/python
 import os
 import sys
