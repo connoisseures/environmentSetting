@@ -1,5 +1,7 @@
-### cmd
-#### How to count lines in a document?
+Work Space
+===
+
+### How to count lines in a document?
 ```
 Use wc:
 wc -l <filename>
@@ -20,12 +22,10 @@ $ lc -l | wc -l
 - https://stackoverflow.com/questions/2136127/how-to-use-gvim-to-edit-a-remote-file
 
 ```
-apt-get install sshfs
-sshfs remoteuser@remotehost:/remote/path /local/mountpoint
+$ apt-get install sshfs
+$ sshfs remoteuser@remotehost:/remote/path /local/mountpoint
 And that will let you edit your remote files as if they were on your local file system.
 ```
 To make it even smoother you can add a line to /etc/fstab
-```
-sshfs#remoteusername@remotehost:/remote/path /local/mountpoint fuse user,noauto
-```
+
 
