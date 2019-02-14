@@ -44,6 +44,14 @@ https://stackoverflow.com/questions/8270092/remove-all-whitespace-in-a-string-in
 
 https://stackoverflow.com/questions/13033278/image-size-python-opencv/23207185
 
+Q & A
+-----------
+
++ Pass a list of string from command line
+  - https://stackoverflow.com/questions/43786174/how-to-pass-and-parse-a-list-of-strings-from-command-line-with-argparse-argument?rq=1
+```python
+parser.add_argument('-n', '--names-list', nargs='+', default=[])
+```
 
 + Python syntax to delete a folder
   - shutil.rmtree()
