@@ -40,3 +40,27 @@ https://stackoverflow.com/questions/8270092/remove-all-whitespace-in-a-string-in
 
 
 https://stackoverflow.com/questions/13033278/image-size-python-opencv/23207185
+
+
+- Python syntax to delete a folder
+-- shutil.rmtree()
+-- Example for shutil.rmtree()
+```
+#!/usr/bin/python
+import os
+import sys
+import shutil
+
+# Get directory name
+mydir= raw_input("Enter directory name: ")
+
+## Try to remove tree; if failed show an error using try...except on screen
+try:
+    shutil.rmtree(mydir)
+except OSError as e:
+    print ("Error: %s - %s." % (e.filename, e.strerror))
+```
+https://stackoverflow.com/questions/6996603/delete-a-file-or-folder
+
+
+
