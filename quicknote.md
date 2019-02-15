@@ -32,6 +32,10 @@ class Sample:
 + tutorial 
   - http://openbookproject.net/thinkcs/python/english3e/lists.html
 
+### dict
++ defaultdict
+  - https://docs.python.org/3/library/collections.html#collections.defaultdict
+
 ### sample
 
 ```python
