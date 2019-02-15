@@ -98,6 +98,7 @@ https://stackoverflow.com/questions/13033278/image-size-python-opencv/23207185
 
 json
 ----
++ https://stackabuse.com/reading-and-writing-json-to-a-file-in-python/
 any file-like object can be passed to the second argument, even if it isn't an actual file. A good example of this would be a socket, which can be opened, closed, and written to much like a file. With JSON being popular throughout the web, this is another use-case you may encounter.
 
 
