@@ -16,6 +16,18 @@ Notes
 print("{:8.3f}".format(12.2346))
 ```
 
+### class
+
++ Structs without constructors:
+  - https://stackoverflow.com/questions/35988/c-like-structures-in-python  
+
+```python
+class Sample:
+  name = ''
+  average = 0.0
+  values = None # list cannot be initialized here!
+```
+
 ### python
 
 ```python
