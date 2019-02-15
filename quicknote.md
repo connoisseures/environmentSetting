@@ -31,7 +31,10 @@ class Sample:
 ### list
 + tutorial 
   - http://openbookproject.net/thinkcs/python/english3e/lists.html
-
+```python
+#add code here to figure out the number of 0's you need, naming the variable n.
+listofzeros = [0] * n
+```
 ### dict
 + defaultdict
   - https://docs.python.org/3/library/collections.html#collections.defaultdict
@@ -92,6 +95,11 @@ https://stackoverflow.com/questions/8270092/remove-all-whitespace-in-a-string-in
 
 
 https://stackoverflow.com/questions/13033278/image-size-python-opencv/23207185
+
+json
+----
+any file-like object can be passed to the second argument, even if it isn't an actual file. A good example of this would be a socket, which can be opened, closed, and written to much like a file. With JSON being popular throughout the web, this is another use-case you may encounter.
+
 
 Q & A
 -----------
