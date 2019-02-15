@@ -1,5 +1,14 @@
-Python
+Python Quick Note
 ===============
+
+Notes
+-----------
++ string
+ - https://www.programiz.com/python-programming/methods/string/format
+ ```python
+# padding for float numbers
+print("{:8.3f}".format(12.2346))
+ ```
 
 ### python
 
