@@ -28,7 +28,11 @@ class Sample:
   values = None # list cannot be initialized here!
 ```
 
-### python
+### list
++ tutorial 
+  - http://openbookproject.net/thinkcs/python/english3e/lists.html
+
+### sample
 
 ```python
 def get_image_subdir(self, path):
