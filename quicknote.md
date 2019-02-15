@@ -37,8 +37,21 @@ class Sample:
   - https://docs.python.org/3/library/collections.html#collections.defaultdict
   - http://l4wisdom.com/python/python_collection_default.php
 
-### sample
+### library
++ sort
+  - https://www.programiz.com/python-programming/methods/built-in/sorted
+```python
+# set
+pySet = {'e', 'a', 'u', 'o', 'i'}
+print(sorted(pySet, reverse=True))
 
+# dictionary
+pyDict = {'e': 1, 'a': 2, 'u': 3, 'o': 4, 'i': 5}
+print(sorted(pyDict, reverse=True))
+# output:['u', 'o', 'i', 'e', 'a']
+```
+
+### sample
 ```python
 def get_image_subdir(self, path):
       return [os.path.join(path, x, 'images') for x in os.listdir(path) if os.path.isdir(os.path.join(path, x))]
