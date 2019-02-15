@@ -3,6 +3,11 @@ Python Quick Note
 
 Notes
 -----------
+
+### covention 
++ file naming
+  - https://stackoverflow.com/questions/2235173/file-name-path-name-base-name-naming-standard-for-pieces-of-a-path
+
 ### string
 + format
   - https://www.programiz.com/python-programming/methods/string/format
