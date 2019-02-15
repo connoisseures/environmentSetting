@@ -102,7 +102,9 @@ json
 + https://developer.rhino3d.com/guides/rhinopython/python-xml-json/
 + https://realpython.com/python-json/
   - any file-like object can be passed to the second argument, even if it isn't an actual file. A good example of this would be a socket, which can be opened, closed, and written to much like a file. With JSON being popular throughout the web, this is another use-case you may encounter.
-
++ Serializing class instance to JSON
+  - https://stackoverflow.com/questions/10252010/serializing-class-instance-to-json
+  
 
 Q & A
 -----------
