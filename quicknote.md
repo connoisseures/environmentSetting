@@ -35,6 +35,7 @@ class Sample:
 ### dict
 + defaultdict
   - https://docs.python.org/3/library/collections.html#collections.defaultdict
+  - http://l4wisdom.com/python/python_collection_default.php
 
 ### sample
 
