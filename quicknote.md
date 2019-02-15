@@ -5,7 +5,7 @@ Notes
 -----------
 ### string
 + format
- - https://www.programiz.com/python-programming/methods/string/format
+  - https://www.programiz.com/python-programming/methods/string/format
 ```python
 # padding for float numbers
 print("{:8.3f}".format(12.2346))
