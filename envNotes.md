@@ -1,6 +1,13 @@
 Work Space
 ===
 
++ kill a process on GPU
+```
+$ nvidia-smi -q
+# This gives a list of all the processes (and their PIDs) occupying GPU memory. I killed them one by one by using
+$ kill -9 PID
+```
+
 ### How to count lines in a document?
 ```
 Use wc:
