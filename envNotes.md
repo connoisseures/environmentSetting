@@ -8,6 +8,14 @@ $ nvidia-smi -q
 $ kill -9 PID
 ```
 
++ How to concatenate string variables in Bash
+  - https://stackoverflow.com/questions/4181703/how-to-concatenate-string-variables-in-bash
+```
+bla=hello
+laber=kthx
+echo "${bla}ohai${laber}bye"
+```
+
 ### How to count lines in a document?
 ```
 Use wc:
@@ -34,5 +42,6 @@ $ sshfs remoteuser@remotehost:/remote/path /local/mountpoint
 And that will let you edit your remote files as if they were on your local file system.
 ```
 To make it even smoother you can add a line to /etc/fstab
+
 
 
