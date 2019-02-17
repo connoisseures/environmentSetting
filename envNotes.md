@@ -15,6 +15,11 @@ bla=hello
 laber=kthx
 echo "${bla}ohai${laber}bye"
 ```
++ open images on terminal 
+  - https://unix.stackexchange.com/questions/35333/what-is-the-fastest-way-to-view-images-from-the-terminal
+```
+feh <image-name>
+```
 
 ### How to count lines in a document?
 ```
