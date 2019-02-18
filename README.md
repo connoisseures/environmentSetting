@@ -79,3 +79,10 @@ belden@skretting:~$ ssh -X blyman@the-server
 
 ### scp
 http://www.hypexr.org/linux_scp_help.php
+
+mac
+---
++ https://stackoverflow.com/questions/2056137/how-to-run-mvim-macvim-from-terminal
+```
+alias gvim='/Applications/MacVim.app/Contents/MacOS/Vim -g'
+```
