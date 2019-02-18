@@ -30,6 +30,8 @@ conda env remove -n ENV_NAME
 
 Or you can manually install the required libraries (see the contents of the environemnt*.yml files) using pip.
 
+tensorflow 
+---
 
 ## Issue on Installation 
 Error when installing TensorFlow
@@ -64,7 +66,10 @@ LD_LIBRARY_PATH=/home/yourname/anaconda3/myLib/libc6_2.17/lib/x86_64-linux-gnu/ 
 
 $ py_tf cnn.py
 ```
-
++ https://stackoverflow.com/questions/35551326/tensorflow-tensorboard-default-port
+```
+tensorboard --logdir=/tmp  --port=8008
+```
 
 ## quick note
 ### How to forward X over SSH to run graphics applications remotely?
