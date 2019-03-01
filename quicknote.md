@@ -117,6 +117,8 @@ Q & A
 ```python
 parser.add_argument('-n', '--names-list', nargs='+', default=[])
 ```
++ check-whether-a-file-exists-without-exceptions
+  - https://stackoverflow.com/questions/82831/how-do-i-check-whether-a-file-exists-without-exceptions
 
 + Python syntax to delete a folder
   - shutil.rmtree()
