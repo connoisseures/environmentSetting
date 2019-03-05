@@ -108,6 +108,21 @@ json
 + Serializing class instance to JSON
   - https://stackoverflow.com/questions/10252010/serializing-class-instance-to-json
   
+plot
+---
++ https://stackoverflow.com/questions/44709970/exporting-histogram-from-python-to-excel
+```
+def plot_his(list_of_list, legend, xlabel, ylabel, the_title):
+    color_def = ['orange', 'green', 'red', 'blue']
+    the_color = color_def[0:len(list_of_list)]
+    counts, bins, patches = plt.hist(list_of_list, color = the_color)
+    plt.xlabel(xlabel)
+    plt.ylabel(ylabel)
+    plt.legend(legend)
+    plt.title(the_title)
+    plt.show()
+    return counts, bins, patches
+```
 
 Q & A
 -----------
