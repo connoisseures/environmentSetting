@@ -111,7 +111,7 @@ json
 plot
 ---
 + https://stackoverflow.com/questions/44709970/exporting-histogram-from-python-to-excel
-```
+```python
 def plot_his(list_of_list, legend, xlabel, ylabel, the_title):
     color_def = ['orange', 'green', 'red', 'blue']
     the_color = color_def[0:len(list_of_list)]
