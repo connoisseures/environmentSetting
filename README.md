@@ -76,6 +76,10 @@ tensorboard --logdir=/tmp  --port=8008
 ```
 belden@skretting:~$ ssh -X blyman@the-server
 ```
+### remote restart 
+```
+sudo service lightdm restart
+```
 
 ### scp
 http://www.hypexr.org/linux_scp_help.php
