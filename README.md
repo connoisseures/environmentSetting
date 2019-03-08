@@ -30,6 +30,16 @@ conda env remove -n ENV_NAME
 
 Or you can manually install the required libraries (see the contents of the environemnt*.yml files) using pip.
 
+virtual env
+---
++ https://stackoverflow.com/questions/26782537/create-a-virtualenv-with-both-python2-and-python3
++ https://stackoverflow.com/questions/41573587/what-is-the-difference-between-venv-pyvenv-pyenv-virtualenv-virtualenvwrappe
++ https://stackoverflow.com/questions/26782537/create-a-virtualenv-with-both-python2-and-python3
++ virtualenv does not support multiple interpreter versions 
+```
+virtualenv -p /usr/bin/python3.3 py3env
+virtualenv -p /usr/bin/python py2env
+```
 tensorflow 
 ---
 
