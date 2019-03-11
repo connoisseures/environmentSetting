@@ -56,7 +56,13 @@ print(sorted(pyDict, reverse=True))
 ### decorator
 + https://www.datacamp.com/community/tutorials/decorators-python
 
-
+### regular expression
++ https://en.wikibooks.org/wiki/Python_Programming/Regular_Expression
+```python
+print re.sub(r"(.*)\1", r"\1", "HeyHey")    # Prints "Hey"; backreference
+print re.sub("EY", "ey", "HEy", flags=re.I) # Prints "Hey"; case-insensitive sub
+print re.sub(r"(?i)EY", r"ey", "HEy")       # Prints "Hey"; case-insensitive sub
+```
 ### sample
 ```python
 def get_image_subdir(self, path):
