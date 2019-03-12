@@ -63,6 +63,17 @@ print re.sub(r"(.*)\1", r"\1", "HeyHey")    # Prints "Hey"; backreference
 print re.sub("EY", "ey", "HEy", flags=re.I) # Prints "Hey"; case-insensitive sub
 print re.sub(r"(?i)EY", r"ey", "HEy")       # Prints "Hey"; case-insensitive sub
 ```
++ https://stackoverflow.com/questions/32698614/python-re-sub-only-replace-part-of-match?rq=1
++ https://regexone.com/references/python
+```python
+import re
+regex = r"([a-zA-Z]+) (\d+)"
+# This will reorder the string and print:
+#   24 of June, 9 of August, 12 of Dec
+print(re.sub(regex, r"\2 of \1", "June 24, August 9, Dec 12"))
+#\1 = 1st ()
+#\2 = 2nd ()
+```
 ### sample
 ```python
 def get_image_subdir(self, path):
