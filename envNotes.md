@@ -48,5 +48,6 @@ And that will let you edit your remote files as if they were on your local file 
 ```
 To make it even smoother you can add a line to /etc/fstab
 
-
+## file or folder comparison 
++ https://www.tecmint.com/compare-find-difference-between-two-directories-in-linux/
 
