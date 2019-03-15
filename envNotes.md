@@ -51,3 +51,7 @@ To make it even smoother you can add a line to /etc/fstab
 ## file or folder comparison 
 + https://www.tecmint.com/compare-find-difference-between-two-directories-in-linux/
 
+git
+---
++ bitbucket
+  - https://stackoverflow.com/questions/25620662/how-to-delete-a-folder-from-bitbucket-repository
