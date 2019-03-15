@@ -55,3 +55,4 @@ git
 ---
 + bitbucket
   - https://stackoverflow.com/questions/25620662/how-to-delete-a-folder-from-bitbucket-repository
++ http://rogerdudler.github.io/git-guide/
