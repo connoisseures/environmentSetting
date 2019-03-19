@@ -15,6 +15,10 @@ Notes
 # padding for float numbers
 print("{:8.3f}".format(12.2346))
 ```
++ https://stackoverflow.com/questions/8266529/python-convert-string-to-list
+```python
+states.split(',')
+```
 
 ### class
 
