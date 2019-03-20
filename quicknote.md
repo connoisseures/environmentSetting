@@ -78,6 +78,10 @@ print(re.sub(regex, r"\2 of \1", "June 24, August 9, Dec 12"))
 #\1 = 1st ()
 #\2 = 2nd ()
 ```
+plot
+---
++ https://matplotlib.org/gallery/color/named_colors.html#sphx-glr-gallery-color-named-colors-py
+
 ### sample
 ```python
 def get_image_subdir(self, path):
