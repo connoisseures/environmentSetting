@@ -92,7 +92,7 @@ sudo service lightdm restart
 ```
 
 ### scp
-http://www.hypexr.org/linux_scp_help.php
++ http://www.hypexr.org/linux_scp_help.php
 
 mac
 ---
@@ -100,3 +100,5 @@ mac
 ```
 alias gvim='/Applications/MacVim.app/Contents/MacOS/Vim -g'
 ```
+### rsync
++ https://www.digitalocean.com/community/tutorials/how-to-use-rsync-to-sync-local-and-remote-directories-on-a-vps
