@@ -54,6 +54,9 @@ To make it even smoother you can add a line to /etc/fstab
 + nohup
   - https://unix.stackexchange.com/questions/137759/why-use-nohup-rather-than-exec
 
++ gvim
+ - https://askubuntu.com/questions/334219/gvim-produces-error-when-hitting-the-close-window
+
 git
 ---
 + bitbucket
