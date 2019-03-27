@@ -105,4 +105,6 @@ alias gvim='/Applications/MacVim.app/Contents/MacOS/Vim -g'
 
 ### best image viwer 
 + https://itsfoss.com/image-viewers-linux/
-
+```
+rsync -avhP dir1/ dir2
+```
