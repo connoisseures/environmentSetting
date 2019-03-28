@@ -81,33 +81,4 @@ $ py_tf cnn.py
 tensorboard --logdir=/tmp  --port=8008
 ```
 
-## quick note
-### How to forward X over SSH to run graphics applications remotely?
-```
-belden@skretting:~$ ssh -X blyman@the-server
-```
-### remote restart 
-```
-sudo service lightdm restart
-```
 
-### scp
-+ http://www.hypexr.org/linux_scp_help.php
-
-mac
----
-+ https://stackoverflow.com/questions/2056137/how-to-run-mvim-macvim-from-terminal
-```
-alias gvim='/Applications/MacVim.app/Contents/MacOS/Vim -g'
-```
-### rsync
-+ https://www.digitalocean.com/community/tutorials/how-to-use-rsync-to-sync-local-and-remote-directories-on-a-vps
-```
-rsync -r --info=progress2 SRC_FOLDER DST_FOLDER
-```
-
-### best image viwer 
-+ https://itsfoss.com/image-viewers-linux/
-```
-rsync -avhP dir1/ dir2
-```
