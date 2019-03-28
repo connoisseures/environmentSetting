@@ -38,7 +38,7 @@ $ find DIR_NAME -type f | wc -l
 $ lc -l | wc -l
 ```
 
-+ remove filesystem over ssh 
++ remote filesystem over ssh 
   - https://stackoverflow.com/questions/2136127/how-to-use-gvim-to-edit-a-remote-file
 
 ```
@@ -56,6 +56,40 @@ To make it even smoother you can add a line to /etc/fstab
 
 + gvim
  - https://askubuntu.com/questions/334219/gvim-produces-error-when-hitting-the-close-window
+
+
++ How to forward X over SSH to run graphics applications remotely?
+```
+belden@skretting:~$ ssh -X blyman@the-server
+```
+
++ remote restart 
+```
+sudo service lightdm restart
+```
+
++ scp
+  - http://www.hypexr.org/linux_scp_help.php
+
++ rsync
+  - https://www.digitalocean.com/community/tutorials/how-to-use-rsync-to-sync-local-and-remote-directories-on-a-vps
+```
+rsync -r --info=progress2 SRC_FOLDER DST_FOLDER
+rsync -r --info=progress2 SRC_FOLDER/ DST_FOLDER
+rsync -avhP dir1/ dir2
+```
+
++ best image viwer 
+  - https://itsfoss.com/image-viewers-linux/
+
+
+mac
+---
++ https://stackoverflow.com/questions/2056137/how-to-run-mvim-macvim-from-terminal
+```
+alias gvim='/Applications/MacVim.app/Contents/MacOS/Vim -g'
+```
+
 
 git
 ---
