@@ -100,3 +100,17 @@ git
 + http://gitqwerty777.github.io/git-commands/
 + https://medium.com/@pk60905/git-%E5%B7%A5%E7%A8%8B%E5%B8%AB%E7%9A%84%E6%99%82%E5%85%89%E6%A9%9F-676ecb07dca3
 
+bash
+---
++ sleep
+  - https://www.cyberciti.biz/faq/linux-unix-sleep-bash-scripting/
++ while 
+  - https://linuxize.com/post/bash-while-loop/
+  - https://www.cyberciti.biz/faq/bash-while-loop/
+  - http://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO-7.html
++ touch
+  - https://stackoverflow.com/questions/9381463/how-to-create-a-file-in-linux-from-terminal-window
++ variable
+  - https://www.tldp.org/LDP/abs/html/parameter-substitution.html
+    
+
