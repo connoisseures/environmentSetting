@@ -34,6 +34,10 @@ class Sample:
   average = 0.0
   values = None # list cannot be initialized here!
 ```
++ a static method of the class - which does not take an instance but applies to all instances of the class. To do that, you would add a @staticmethod decorator before the method.
+
++ mongoDB example
+  - https://stackoverflow.com/questions/11832556/writing-a-simple-mongodb-module-in-python
 
 ### list
 + tutorial 
