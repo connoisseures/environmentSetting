@@ -7,6 +7,9 @@ Notes
 ### covention 
 + file naming
   - https://stackoverflow.com/questions/2235173/file-name-path-name-base-name-naming-standard-for-pieces-of-a-path
++ underscore
+  - https://shahriar.svbtle.com/underscores-in-python
+  - https://docs.python.org/3.4/tutorial/classes.html#tut-private
 
 ### string
 + format
