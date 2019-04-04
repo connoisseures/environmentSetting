@@ -5,3 +5,4 @@ mongoDB
 + https://realpython.com/introduction-to-mongodb-and-python/
 + aggregation
   - https://docs.mongodb.com/manual/aggregation/
+  - https://docs.mongodb.com/manual/reference/operator/aggregation/match/
