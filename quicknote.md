@@ -37,6 +37,7 @@ class Sample:
 + a static method of the class - which does not take an instance but applies to all instances of the class. To do that, you would add a @staticmethod decorator before the method.
   - https://www.programiz.com/python-programming/methods/built-in/classmethod
   - https://stackabuse.com/pythons-classmethod-and-staticmethod-explained/
+  - https://www.programiz.com/python-programming/methods/built-in/staticmethod
 
 + mongoDB example
   - https://stackoverflow.com/questions/11832556/writing-a-simple-mongodb-module-in-python
