@@ -20,7 +20,10 @@ echo "${bla}ohai${laber}bye"
 ```
 feh <image-name>
 ```
-
++ open pdf
+  - xdg-open file2open.xxx 
+  - https://askubuntu.com/questions/43264/how-to-open-a-pdf-file-from-terminal
+  
 + How to count lines in a document?
 ```
 Use wc:
