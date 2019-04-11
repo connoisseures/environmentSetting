@@ -38,7 +38,8 @@ class Sample:
   - https://www.programiz.com/python-programming/methods/built-in/classmethod
   - https://stackabuse.com/pythons-classmethod-and-staticmethod-explained/
   - https://www.programiz.com/python-programming/methods/built-in/staticmethod
-
++ how-to-call-a-method-from-another-method
+  - https://stackoverflow.com/questions/1859959/python-static-methods-how-to-call-a-method-from-another-method
 + mongoDB example
   - https://stackoverflow.com/questions/11832556/writing-a-simple-mongodb-module-in-python
 
