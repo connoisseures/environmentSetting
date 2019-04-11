@@ -42,7 +42,20 @@ class Sample:
   - https://stackoverflow.com/questions/1859959/python-static-methods-how-to-call-a-method-from-another-method
 + mongoDB example
   - https://stackoverflow.com/questions/11832556/writing-a-simple-mongodb-module-in-python
+```python
+class Test() :
+    @staticmethod
+    def static_method_to_call()
+        pass
 
+    @staticmethod
+    def another_static_method() :
+        Test.static_method_to_call()
+
+    @classmethod
+    def another_class_method(cls) :
+        cls.static_method_to_call()
+```
 ### list
 + tutorial 
   - http://openbookproject.net/thinkcs/python/english3e/lists.html
