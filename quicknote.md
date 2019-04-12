@@ -204,6 +204,8 @@ except OSError as e:
     print ("Error: %s - %s." % (e.filename, e.strerror))
 ```
 
++ random numbers without duplicates 
+  - https://stackoverflow.com/questions/9755538/how-do-i-create-a-list-of-random-numbers-without-duplicates
 
 
 
