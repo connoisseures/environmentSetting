@@ -56,6 +56,12 @@ class Test() :
     def another_class_method(cls) :
         cls.static_method_to_call()
 ```
++ operator 
+  - https://rszalski.github.io/magicmethods/
+  - https://stackabuse.com/overloading-functions-and-operators-in-python/
+  - http://hplgit.github.io/primer.html/doc/pub/class/._class-readable007.html
+  
+
 ### list
 + tutorial 
   - http://openbookproject.net/thinkcs/python/english3e/lists.html
@@ -63,6 +69,11 @@ class Test() :
 #add code here to figure out the number of 0's you need, naming the variable n.
 listofzeros = [0] * n
 ```
+
++ * meaning
+  - https://stackoverflow.com/questions/400739/what-does-asterisk-mean-in-python
+  - https://medium.com/understand-the-python/understanding-the-asterisk-of-python-8b9daaa4a558
+
 ### dict
 + defaultdict
   - https://docs.python.org/3/library/collections.html#collections.defaultdict
@@ -102,6 +113,12 @@ print(re.sub(regex, r"\2 of \1", "June 24, August 9, Dec 12"))
 #\1 = 1st ()
 #\2 = 2nd ()
 ```
+
+random
+---
++ https://docs.python.org/3/library/random.html
+
+
 plot
 ---
 + https://matplotlib.org/gallery/color/named_colors.html#sphx-glr-gallery-color-named-colors-py
