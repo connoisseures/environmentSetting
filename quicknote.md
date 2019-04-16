@@ -70,7 +70,7 @@ class Test() :
 listofzeros = [0] * n
 ```
 
-+ * meaning
++ asterisk meaning
   - https://stackoverflow.com/questions/400739/what-does-asterisk-mean-in-python
   - https://medium.com/understand-the-python/understanding-the-asterisk-of-python-8b9daaa4a558
 
