@@ -78,6 +78,8 @@ listofzeros = [0] * n
 + defaultdict
   - https://docs.python.org/3/library/collections.html#collections.defaultdict
   - http://l4wisdom.com/python/python_collection_default.php
++ copy
+  - https://stackoverflow.com/questions/2465921/how-to-copy-a-dictionary-and-only-edit-the-copy
 
 ### library
 + sort
