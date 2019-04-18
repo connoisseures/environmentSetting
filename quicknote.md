@@ -40,8 +40,7 @@ class Sample:
   - https://www.programiz.com/python-programming/methods/built-in/staticmethod
 + how-to-call-a-method-from-another-method
   - https://stackoverflow.com/questions/1859959/python-static-methods-how-to-call-a-method-from-another-method
-+ mongoDB example
-  - https://stackoverflow.com/questions/11832556/writing-a-simple-mongodb-module-in-python
+
 ```python
 class Test() :
     @staticmethod
@@ -52,6 +51,12 @@ class Test() :
     def another_static_method() :
         Test.static_method_to_call()
 
+    def a_method(self) :
+    '''
+    call a staticmethod within the class
+    '''
+        self.static_method_to_call()
+
     @classmethod
     def another_class_method(cls) :
         cls.static_method_to_call()
@@ -60,7 +65,10 @@ class Test() :
   - https://rszalski.github.io/magicmethods/
   - https://stackabuse.com/overloading-functions-and-operators-in-python/
   - http://hplgit.github.io/primer.html/doc/pub/class/._class-readable007.html
-  
+
+### mongoDB
++ mongoDB example
+  - https://stackoverflow.com/questions/11832556/writing-a-simple-mongodb-module-in-python
 
 ### list
 + tutorial 
