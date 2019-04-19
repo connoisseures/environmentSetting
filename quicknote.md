@@ -66,6 +66,12 @@ class Test() :
   - https://stackabuse.com/overloading-functions-and-operators-in-python/
   - http://hplgit.github.io/primer.html/doc/pub/class/._class-readable007.html
 
+### multiprocessing 
++ https://timber.io/blog/multiprocessing-vs-multithreading-in-python-what-you-need-to-know/
+  - Because of this, the usual problems associated with threading (such as data corruption and deadlocks) are no longer an issue. Since the processes don't share memory, they can't modify the same memory concurrently.
++ https://sebastianraschka.com/Articles/2014_multiprocessing.html#multi-threading-vs-multi-processing
+
+
 ### mongoDB
 + mongoDB example
   - https://stackoverflow.com/questions/11832556/writing-a-simple-mongodb-module-in-python
