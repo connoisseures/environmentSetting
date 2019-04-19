@@ -71,6 +71,9 @@ class Test() :
   - Because of this, the usual problems associated with threading (such as data corruption and deadlocks) are no longer an issue. Since the processes don't share memory, they can't modify the same memory concurrently.
 + https://sebastianraschka.com/Articles/2014_multiprocessing.html#multi-threading-vs-multi-processing
 
+### image
++ remember to close image
+  - https://stackoverflow.com/questions/31751464/how-do-i-close-an-image-opened-in-pillow
 
 ### mongoDB
 + mongoDB example
