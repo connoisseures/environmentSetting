@@ -76,9 +76,10 @@ sudo service lightdm restart
 
 + rsync
   - https://www.digitalocean.com/community/tutorials/how-to-use-rsync-to-sync-local-and-remote-directories-on-a-vps
+  - https://linux.die.net/man/1/rsync
 ```
-rsync -r --info=progress2 SRC_FOLDER DST_FOLDER
-rsync -r --info=progress2 SRC_FOLDER/ DST_FOLDER
+rsync -rl --info=progress2 SRC_FOLDER DST_FOLDER
+rsync -rL --info=progress2 SRC_FOLDER/ DST_FOLDER
 rsync -avhP dir1/ dir2
 ```
 
