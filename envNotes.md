@@ -119,5 +119,7 @@ bash
   - https://stackoverflow.com/questions/9381463/how-to-create-a-file-in-linux-from-terminal-window
 + variable
   - https://www.tldp.org/LDP/abs/html/parameter-substitution.html
-    
++ missing ]
+  - https://stackoverflow.com/questions/15993062/bash-scripting-missing
+  
 
