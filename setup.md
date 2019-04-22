@@ -1,27 +1,39 @@
 Getting start  
 ---
 
-### Working Env
-Virtual env
-Install virtualenv if needed
-Create working env
-Set a virtual env
-$ virtualenv --system-site-packages -p python3 YOUR_ENV_NAME
-or you can use the script I provided
-$ bash 01a_virtualEnv.sh YOUR_ENV_NAME
-Activate a virtual env
-$ source PATH_TO_YOUR_ENV/bin/activate
-//deactivate env
-$ deactivate
-https://virtualenv.pypa.io/en/latest/userguide/
+Working Env
+---
 
-Tensorflow - GPU
-Useful command
+## Virtual env
++ Install virtualenv if needed
++ Create working env
+    - Set a virtual env
+    ```
+    virtualenv --system-site-packages -p python3 YOUR_ENV_NAME
+    ```
+    - or you can use the script I provided
+    ```
+    $ bash 01a_virtualEnv.sh YOUR_ENV_NAME
+    ```
+    - Activate a virtual env
+    ```
+    $ source PATH_TO_YOUR_ENV/bin/activate
+    ```
+    - deactivate env
+    ```
+    $ deactivate
+    ```
+    - https://virtualenv.pypa.io/en/latest/userguide/
+
+## Tensorflow - GPU
++ Useful command
+```
 $ nvidia-smi
     https://developer.nvidia.com/nvidia-system-management-interface
 $ nvidia-smi -q -g 0 -d UTILIZATION 
 $ gpustat -cp
-https://stackoverflow.com/questions/8223811/top-command-for-gpus-using-cuda
+```
++ https://stackoverflow.com/questions/8223811/top-command-for-gpus-using-cuda
 
 Make sure cuda installed on the server and set the ENV path for cuda
 If the server has a symbolic link for cuda   
