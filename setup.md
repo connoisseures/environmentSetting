@@ -1,10 +1,9 @@
 Getting start  
 ---
 
-Working Env
----
+## Working Env
 
-## Virtual env
+### Virtual env
 + Install virtualenv if needed
 + Create working env
     - Set a virtual env
@@ -25,7 +24,7 @@ Working Env
     ```
     - https://virtualenv.pypa.io/en/latest/userguide/
 
-## Tensorflow - GPU
+### Tensorflow - GPU
 + Useful command
 ```
 $ nvidia-smi
@@ -35,57 +34,73 @@ $ gpustat -cp
 ```
 + https://stackoverflow.com/questions/8223811/top-command-for-gpus-using-cuda
 
-Make sure cuda installed on the server and set the ENV path for cuda
-If the server has a symbolic link for cuda   
-$ export PATH=/usr/local/cuda/bin:${PATH:+:${PATH}}
-$ export LD_LIBRARY_PATH=/usr/local/cuda/lib64\
-$ {LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}
-You can also define the path of the cuda(Ex: cuda-9.2) installed on the server  
-$ export PATH=/usr/local/cuda-9.2/bin:${PATH:+:${PATH}}
-$ export LD_LIBRARY_PATH=/usr/local/cuda-9.2/lib64{LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}
-Or you can use the script I provided
-$ source 02a_setCudaPath.sh
-
-Verfy Installation of cuda 
++ Make sure cuda installed on the server and set the ENV path for cuda
+    - If the server has a symbolic link for cuda   
+    ```
+    $ export PATH=/usr/local/cuda/bin:${PATH:+:${PATH}}
+    $ export LD_LIBRARY_PATH=/usr/local/cuda/lib64\
+    $ {LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}
+    ```
+    - You can also define the path of the cuda(Ex: cuda-9.2) installed on the server  
+    ```
+    $ export PATH=/usr/local/cuda-9.2/bin:${PATH:+:${PATH}}
+    $ export LD_LIBRARY_PATH=/usr/local/cuda-9.2/lib64{LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}
+    ```
+    - Or you can use the script I provided
+    ```
+    $ source 02a_setCudaPath.sh
+    ```
+    - Verfy Installation of cuda 
+    ```
     $ cat /proc/driver/nvidia/version
     $ nvcc -V
-$ cp -r /usr/local/cuda-9.2/samples YOUR_SAMPLE_PATH
-$ make
-$ cd YOUR_SAMPLE_PATH/bin/x86_64/linux/release
-$ ./deviceQuer
+    $ cp -r /usr/local/cuda-9.2/samples YOUR_SAMPLE_PATH
+    $ make
+    $ cd YOUR_SAMPLE_PATH/bin/x86_64/linux/release
+    $ ./deviceQuer  
+    ```
+    - https://medium.com/@zhanwenchen/install-cuda-9-2-and-cudnn-7-1-for-tensorflow-pytorch-gpu-on-ubuntu-16-04-1822ab4b2421
+    - http://developer.download.nvidia.com/compute/cuda/9.2/Prod/docs/sidebar/CUDA_Installation_Guide_Linux.pdf
 
-https://medium.com/@zhanwenchen/install-cuda-9-2-and-cudnn-7-1-for-tensorflow-pytorch-gpu-on-ubuntu-16-04-1822ab4b2421
-
-http://developer.download.nvidia.com/compute/cuda/9.2/Prod/docs/sidebar/CUDA_Installation_Guide_Linux.pdf
-
-usefull :
-pip show tensorflow 
-pip uninstall tensorflow
-Install tensorflow - gpu
-https://www.tensorflow.org/install/pip
-$ virtualenv --system-site-packages -p python3 ./venv
-$ source ./venv/bin/activate  # sh, bash, ksh, or zsh
-$ pip install --upgrade pip    
-$ pip list  # show packages installed within the virtual environment
-$ pip3 install tensorflow-gpu==1.8 # if you plan to install TF version 1.8
-Please make sure that the cuda version complies with the version of the official Tensorflow. Or you will suffer from the common issue that “ libcublas.so.9.0” is not found.  
-common issue during installing tensorflow-gpu
-ImportError: libcublas.so.9.0: cannot open shared object file: No such file or directory
-The issure results from the cuda version doesn’t match with the offiical tensoflow pacakge. 
-Here is the official build configuration 
-https://www.tensorflow.org/install/source#tested_source_configurations
-solution: 
-Build the tensorflow from source and package it as a pip package. use pip package to install.  
-https://gist.github.com/ljaraque/d18d3dd198dcff3bc40cbe91889564d0
-Ex: we provide a pip package of TF1.9+cuda9.2 on GPUS03
-$ pip install /tmp/tensorflow_pkg/tensorflow-1.9.0-cp35-cp35m-linux_x86_64.whl
-
-verfy tensorflow 
+### usefull :
++ pip show tensorflow 
+    ```
+    pip uninstall tensorflow
+    Install tensorflow - gpu
+    ```
++ https://www.tensorflow.org/install/pip
+    ```
+    $ virtualenv --system-site-packages -p python3 ./venv
+    $ source ./venv/bin/activate  # sh, bash, ksh, or zsh
+    $ pip install --upgrade pip    
+    $ pip list  # show packages installed within the virtual environment
+    $ pip3 install tensorflow-gpu==1.8 # if you plan to install TF version 1.8
+    ```
++ Please make sure that the cuda version complies with the version of the official Tensorflow. Or you will suffer from the common issue that “ libcublas.so.9.0” is not found.  
++ common issue during installing tensorflow-gpu
+    - ImportError: libcublas.so.9.0: cannot open shared object file: No such file or directory
+        - The issure results from the cuda version doesn’t match with the offiical tensoflow pacakge. 
+        - Here is the official build configuration 
+        - https://www.tensorflow.org/install/source#tested_source_configurations
+        - solution: 
+        - Build the tensorflow from source and package it as a pip package. use pip package to install.  
+        - https://gist.github.com/ljaraque/d18d3dd198dcff3bc40cbe91889564d0
+        - Ex: we provide a pip package of TF1.9+cuda9.2 on GPUS03
+        ```
+        $ pip install /tmp/tensorflow_pkg/tensorflow-1.9.0-cp35-cp35m-linux_x86_64.whl
+        ```
+        
++ verfy tensorflow 
+```
 $ python -c "import tensorflow as tf; tf.enable_eager_execution(); print(tf.reduce_sum(tf.random_normal([1000, 1000])))"
+```
 Or you can use the script I provided
+```
 $ bash 03b_verfyTF1.9.sh
+```
 
-Tensorflow ODAPI
+## Tensorflow ODAPI
+
 https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/installation.md
 Dependencies 
 $ pip install --user Cython
