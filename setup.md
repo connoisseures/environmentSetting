@@ -9,6 +9,8 @@ Getting start
     - Set a virtual env
     ```
     virtualenv --system-site-packages -p python3 YOUR_ENV_NAME
+    # or
+    virtualenv -p python3 YOUR_ENV_NAME
     ```
     - or you can use the script I provided
     ```
@@ -80,12 +82,12 @@ $ gpustat -cp
 + common issue during installing tensorflow-gpu
     - ImportError: libcublas.so.9.0: cannot open shared object file: No such file or directory
         - The issure results from the cuda version doesn’t match with the offiical tensoflow pacakge. 
-        - Here is the official build configuration 
-        - https://www.tensorflow.org/install/source#tested_source_configurations
-        - solution: 
-        - Build the tensorflow from source and package it as a pip package. use pip package to install.  
-        - https://gist.github.com/ljaraque/d18d3dd198dcff3bc40cbe91889564d0
-        - Ex: we provide a pip package of TF1.9+cuda9.2 on GPUS03
+        Here is the official build configuration. 
+        https://www.tensorflow.org/install/source#tested_source_configurations
+        solution: 
+        Build the tensorflow from source and package it as a pip package. use pip package to install.  
+        https://gist.github.com/ljaraque/d18d3dd198dcff3bc40cbe91889564d0
+        Ex: we provide a pip package of TF1.9+cuda9.2 on GPUS03
         ```
         $ pip install /tmp/tensorflow_pkg/tensorflow-1.9.0-cp35-cp35m-linux_x86_64.whl
         ```
