@@ -108,7 +108,12 @@ git
   - git log
   - git rm --cached <file>
 + https://stackoverflow.com/questions/15745045/how-do-i-resolve-git-saying-commit-your-changes-or-stash-them-before-you-can-me
-
++ https://stackoverflow.com/questions/215718/reset-or-revert-a-specific-file-to-a-specific-revision-using-git
+  If you want to revert to the commit before c5f567, append ~1 (works with any number):
+```
+git checkout c5f567~1 -- file1/to/restore file2/to/restore
+```
+  
 bash
 ---
 + sleep
