@@ -34,6 +34,10 @@ $ nvidia-smi
 $ nvidia-smi -q -g 0 -d UTILIZATION 
 $ gpustat -cp
 ```
++ https://unix.stackexchange.com/questions/38560/gpu-usage-monitoring-cuda
+```
+watch -n 0.5 nvidia-smi
+```
 + https://stackoverflow.com/questions/8223811/top-command-for-gpus-using-cuda
 
 + Make sure cuda installed on the server and set the ENV path for cuda
