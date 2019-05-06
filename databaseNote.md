@@ -12,9 +12,9 @@ mongoDB
   ```python
       for doc in annotation_collection.find({}, {'_id':1}):
         print(doc)
-      ## print all doc and only '_id' file is shown
-  #comparing
+      ## print all doc and only '_id' file is returned
+      
       for doc in annotation_collection.find({'_id':1}):
         print(doc)
-      ## print doc which '_id' filed = 1
+      ## print doc which '_id' filed is equal to 1
   ```
