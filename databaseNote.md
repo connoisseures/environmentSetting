@@ -6,3 +6,14 @@ mongoDB
 + aggregation
   - https://docs.mongodb.com/manual/aggregation/
   - https://docs.mongodb.com/manual/reference/operator/aggregation/match/
++ find
+  - db.collection.find(query, projection)
+  '''python
+      for doc in annotation_collection.find({}, {'_id':1}):
+        print(doc)
+      ## print all doc and only '_id' file is shown
+  #comparing
+      for doc in annotation_collection.find({'_id':1}):
+        print(doc)
+      ## print doc which '_id' filed = 1
+  '''
