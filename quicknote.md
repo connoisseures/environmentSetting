@@ -70,6 +70,7 @@ class Test() :
 + https://timber.io/blog/multiprocessing-vs-multithreading-in-python-what-you-need-to-know/
   - Because of this, the usual problems associated with threading (such as data corruption and deadlocks) are no longer an issue. Since the processes don't share memory, they can't modify the same memory concurrently.
 + https://sebastianraschka.com/Articles/2014_multiprocessing.html#multi-threading-vs-multi-processing
++ https://www.journaldev.com/15631/python-multiprocessing-example
 
 ### image
 + remember to close image
