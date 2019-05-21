@@ -23,7 +23,10 @@ feh <image-name>
 + open pdf
   - xdg-open file2open.xxx 
   - https://askubuntu.com/questions/43264/how-to-open-a-pdf-file-from-terminal
-  
+
++ how to log screen
+  - https://askubuntu.com/questions/161935/how-do-i-log-all-input-and-output-in-a-terminal-session
+
 + How to count lines in a document?
 ```
 Use wc:
