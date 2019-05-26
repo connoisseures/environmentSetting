@@ -71,6 +71,8 @@ class Test() :
   - Because of this, the usual problems associated with threading (such as data corruption and deadlocks) are no longer an issue. Since the processes don't share memory, they can't modify the same memory concurrently.
 + https://sebastianraschka.com/Articles/2014_multiprocessing.html#multi-threading-vs-multi-processing
 + https://www.journaldev.com/15631/python-multiprocessing-example
++ https://pymotw.com/2/multiprocessing/communication.html#process-pools
+By default Pool creates a fixed number of worker processes and passes jobs to them until there are no more jobs. Setting the maxtasksperchild parameter tells the pool to restart a worker process after it has finished a few tasks. This can be used to avoid having long-running workers consume ever more system resources.
 
 ### image
 + remember to close image
