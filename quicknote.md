@@ -72,8 +72,13 @@ class Test() :
 + https://sebastianraschka.com/Articles/2014_multiprocessing.html#multi-threading-vs-multi-processing
 + https://www.journaldev.com/15631/python-multiprocessing-example
 + https://pymotw.com/2/multiprocessing/communication.html#process-pools
-By default Pool creates a fixed number of worker processes and passes jobs to them until there are no more jobs. Setting the maxtasksperchild parameter tells the pool to restart a worker process after it has finished a few tasks. This can be used to avoid having long-running workers consume ever more system resources.
-
++ By default Pool creates a fixed number of worker processes and passes jobs to them until there are no more jobs. Setting the maxtasksperchild parameter tells the pool to restart a worker process after it has finished a few tasks. This can be used to avoid having long-running workers consume ever more system resources.
+```python
+pool = multiprocessing.Pool(processes=pool_size,
+                                initializer=start_process,
+                                maxtasksperchild=2,
+                                )
+```
 ### image
 + remember to close image
   - https://stackoverflow.com/questions/31751464/how-do-i-close-an-image-opened-in-pillow
