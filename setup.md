@@ -156,8 +156,15 @@ generate TFRecord
 $ python $TFODAPIPATH/object_detection/dataset_tools/create_pet_tf_record.py --label_map_path=`pwd`/pet_label_map.pbtxt --data_dir=`pwd` --output_dir=`pwd`
 ($TFODAPIPATH: the path where tensorflow-odapi is located)
 
-
-
+### issue 
++ "gcc: error: pycocotools/_mask.c: No such file" issue #168
+    - https://github.com/cocodataset/cocoapi/issues/168
+    ```bash
+    Because my machine is the first to install "cocoapi", so I meet the same problems.
+    pip install Cython
+    pip install pycocotools
+    make
+    ```
 
 
 
