@@ -109,22 +109,25 @@ $ bash 03b_verfyTF1.9.sh
 
 https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/installation.md
 Dependencies 
+```bash
 $ pip install --user Cython
 $ pip install --user contextlib2
 $ pip install --user pillow
 $ pip install --user lxml
 $ pip install --user jupyter
 $ pip install --user matplotlib
+```
 You can start by loading official version to make sure you already have setup the prerequisite for Tensorflow ODAPI
-clone tensorflow model (official version)
-https://github.com/tensorflow/models
-coco api installation (Our inhouse Tensorflow ODAPI already includes it.)
-https://github.com/cocodataset/cocoapi.git
++ clone tensorflow model (official version)
+    - https://github.com/tensorflow/models
++ coco api installation (Our inhouse Tensorflow ODAPI already includes it.)
+    - https://github.com/cocodataset/cocoapi.git
 
 Download the cocoapi and copy the pycocotools subfolder to the tensorflow/models/research directory if you are interested in using COCO evaluation metrics. 
 
 Set PYTHONPATH
 move to the path you place “Tensorflow ODAPI” 
+```bash
 # From tensorflow/models/research/
 $ export PYTHONPATH=$PYTHONPATH:`pwd`:`pwd`/slim
 Or you can use the script I provided
@@ -132,29 +135,32 @@ $ source 04c_setPYTHONPATH.sh
 verify the installation
 $ cd PATH_TO_TFODAPI_RESEARCH 
 $ python object_detection/builders/model_builder_test.py
+```
 Starting a Project
-define your own file hierarchy
- my example: 
-data
-log
-models 
-myEnv
-workspace  
-source a virtual environment 
-set PATH
-set cuda path 
-set pythonpath
-use bach: $ source 00_setPATH.sh
++ define your own file hierarchy
+    - my example: 
+1. data
+2. log
+3. models 
+4. myEnv
+5. workspace  
+6. source a virtual environment 
+7. set PATH
+8. set cuda path 
+9. set pythonpath
+10. use bach: $ source 00_setPATH.sh
 
 
-Tutorial on Tensorflow-OPAPI
-prepare TFRecord 
-https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/preparing_inputs.md
-prepare data set 
-prepare pbtxt file 
-generate TFRecord
+### Tutorial on Tensorflow-OPAPI
++ prepare TFRecord 
+    - https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/preparing_inputs.md
++ prepare data set 
++ prepare pbtxt file 
+    - generate TFRecord
+```bash
 $ python $TFODAPIPATH/object_detection/dataset_tools/create_pet_tf_record.py --label_map_path=`pwd`/pet_label_map.pbtxt --data_dir=`pwd` --output_dir=`pwd`
 ($TFODAPIPATH: the path where tensorflow-odapi is located)
+```
 
 ### issue 
 + "gcc: error: pycocotools/_mask.c: No such file" issue #168
