@@ -43,7 +43,9 @@ $ find DIR_NAME -type f | wc -l
 //or at the DIR
 $ lc -l | wc -l
 ```
-
+### sshfs
++ https://linuxize.com/post/how-to-use-sshfs-to-mount-remote-directories-over-ssh/
++ https://www.digitalocean.com/community/tutorials/how-to-use-sshfs-to-mount-remote-file-systems-over-ssh
 + remote filesystem over ssh 
   - https://stackoverflow.com/questions/2136127/how-to-use-gvim-to-edit-a-remote-file
 
