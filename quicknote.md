@@ -7,6 +7,9 @@ Notes
 ### covention 
 + file naming
   - https://stackoverflow.com/questions/2235173/file-name-path-name-base-name-naming-standard-for-pieces-of-a-path
++ underscore
+  - https://shahriar.svbtle.com/underscores-in-python
+  - https://docs.python.org/3.4/tutorial/classes.html#tut-private
 
 ### string
 + format
@@ -31,6 +34,58 @@ class Sample:
   average = 0.0
   values = None # list cannot be initialized here!
 ```
++ a static method of the class - which does not take an instance but applies to all instances of the class. To do that, you would add a @staticmethod decorator before the method.
+  - https://www.programiz.com/python-programming/methods/built-in/classmethod
+  - https://stackabuse.com/pythons-classmethod-and-staticmethod-explained/
+  - https://www.programiz.com/python-programming/methods/built-in/staticmethod
++ how-to-call-a-method-from-another-method
+  - https://stackoverflow.com/questions/1859959/python-static-methods-how-to-call-a-method-from-another-method
+
+```python
+class Test() :
+    @staticmethod
+    def static_method_to_call()
+        pass
+
+    @staticmethod
+    def another_static_method() :
+        Test.static_method_to_call()
+
+    def a_method(self) :
+    '''
+    call a staticmethod within the class
+    '''
+        self.static_method_to_call()
+
+    @classmethod
+    def another_class_method(cls) :
+        cls.static_method_to_call()
+```
++ operator 
+  - https://rszalski.github.io/magicmethods/
+  - https://stackabuse.com/overloading-functions-and-operators-in-python/
+  - http://hplgit.github.io/primer.html/doc/pub/class/._class-readable007.html
+
+### multiprocessing 
++ https://timber.io/blog/multiprocessing-vs-multithreading-in-python-what-you-need-to-know/
+  - Because of this, the usual problems associated with threading (such as data corruption and deadlocks) are no longer an issue. Since the processes don't share memory, they can't modify the same memory concurrently.
++ https://sebastianraschka.com/Articles/2014_multiprocessing.html#multi-threading-vs-multi-processing
++ https://www.journaldev.com/15631/python-multiprocessing-example
++ https://pymotw.com/2/multiprocessing/communication.html#process-pools
++ By default Pool creates a fixed number of worker processes and passes jobs to them until there are no more jobs. Setting the maxtasksperchild parameter tells the pool to restart a worker process after it has finished a few tasks. This can be used to avoid having long-running workers consume ever more system resources.
+```python
+pool = multiprocessing.Pool(processes=pool_size,
+                                initializer=start_process,
+                                maxtasksperchild=2,
+                                )
+```
+### image
++ remember to close image
+  - https://stackoverflow.com/questions/31751464/how-do-i-close-an-image-opened-in-pillow
+
+### mongoDB
++ mongoDB example
+  - https://stackoverflow.com/questions/11832556/writing-a-simple-mongodb-module-in-python
 
 ### list
 + tutorial 
@@ -39,10 +94,17 @@ class Sample:
 #add code here to figure out the number of 0's you need, naming the variable n.
 listofzeros = [0] * n
 ```
+
++ asterisk meaning
+  - https://stackoverflow.com/questions/400739/what-does-asterisk-mean-in-python
+  - https://medium.com/understand-the-python/understanding-the-asterisk-of-python-8b9daaa4a558
+
 ### dict
 + defaultdict
   - https://docs.python.org/3/library/collections.html#collections.defaultdict
   - http://l4wisdom.com/python/python_collection_default.php
++ copy
+  - https://stackoverflow.com/questions/2465921/how-to-copy-a-dictionary-and-only-edit-the-copy
 
 ### library
 + sort
@@ -78,6 +140,12 @@ print(re.sub(regex, r"\2 of \1", "June 24, August 9, Dec 12"))
 #\1 = 1st ()
 #\2 = 2nd ()
 ```
+
+random
+---
++ https://docs.python.org/3/library/random.html
+
+
 plot
 ---
 + https://matplotlib.org/gallery/color/named_colors.html#sphx-glr-gallery-color-named-colors-py
@@ -180,6 +248,8 @@ except OSError as e:
     print ("Error: %s - %s." % (e.filename, e.strerror))
 ```
 
++ random numbers without duplicates 
+  - https://stackoverflow.com/questions/9755538/how-do-i-create-a-list-of-random-numbers-without-duplicates
 
 
 

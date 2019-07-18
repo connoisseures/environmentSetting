@@ -20,6 +20,12 @@ echo "${bla}ohai${laber}bye"
 ```
 feh <image-name>
 ```
++ open pdf
+  - xdg-open file2open.xxx 
+  - https://askubuntu.com/questions/43264/how-to-open-a-pdf-file-from-terminal
+
++ how to log screen
+  - https://askubuntu.com/questions/161935/how-do-i-log-all-input-and-output-in-a-terminal-session
 
 + How to count lines in a document?
 ```
@@ -37,7 +43,9 @@ $ find DIR_NAME -type f | wc -l
 //or at the DIR
 $ lc -l | wc -l
 ```
-
+### sshfs
++ https://linuxize.com/post/how-to-use-sshfs-to-mount-remote-directories-over-ssh/
++ https://www.digitalocean.com/community/tutorials/how-to-use-sshfs-to-mount-remote-file-systems-over-ssh
 + remote filesystem over ssh 
   - https://stackoverflow.com/questions/2136127/how-to-use-gvim-to-edit-a-remote-file
 
@@ -73,9 +81,10 @@ sudo service lightdm restart
 
 + rsync
   - https://www.digitalocean.com/community/tutorials/how-to-use-rsync-to-sync-local-and-remote-directories-on-a-vps
+  - https://linux.die.net/man/1/rsync
 ```
-rsync -r --info=progress2 SRC_FOLDER DST_FOLDER
-rsync -r --info=progress2 SRC_FOLDER/ DST_FOLDER
+rsync -rl --info=progress2 SRC_FOLDER DST_FOLDER
+rsync -rL --info=progress2 SRC_FOLDER/ DST_FOLDER
 rsync -avhP dir1/ dir2
 ```
 
@@ -99,7 +108,19 @@ git
 + https://blog.techbridge.cc/2018/01/17/learning-programming-and-coding-with-python-git-and-github-tutorial/
 + http://gitqwerty777.github.io/git-commands/
 + https://medium.com/@pk60905/git-%E5%B7%A5%E7%A8%8B%E5%B8%AB%E7%9A%84%E6%99%82%E5%85%89%E6%A9%9F-676ecb07dca3
-
++ working directory, staging area, and repository
+  - git show
+  - git log
+  - git rm --cached <file>
++ https://stackoverflow.com/questions/15745045/how-do-i-resolve-git-saying-commit-your-changes-or-stash-them-before-you-can-me
++ https://stackoverflow.com/questions/215718/reset-or-revert-a-specific-file-to-a-specific-revision-using-git
+  If you want to revert to the commit before c5f567, append ~1 (works with any number):
+```
+git checkout c5f567~1 -- file1/to/restore file2/to/restore
+```
++ checkout a branch 
+  - https://confluence.atlassian.com/bitbucket/checkout-a-branch-into-a-local-repository-313466957.html  
+  
 bash
 ---
 + sleep
@@ -112,5 +133,7 @@ bash
   - https://stackoverflow.com/questions/9381463/how-to-create-a-file-in-linux-from-terminal-window
 + variable
   - https://www.tldp.org/LDP/abs/html/parameter-substitution.html
-    
++ missing ]
+  - https://stackoverflow.com/questions/15993062/bash-scripting-missing
+  
 
