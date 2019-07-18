@@ -119,6 +119,13 @@ pyDict = {'e': 1, 'a': 2, 'u': 3, 'o': 4, 'i': 5}
 print(sorted(pyDict, reverse=True))
 # output:['u', 'o', 'i', 'e', 'a']
 ```
+
+### import 
++ https://alex.dzyoba.com/blog/python-import/
++ https://stackabuse.com/python-modules-creating-importing-and-sharing/
+  - Modules are units that store code and data, provide code-reuse to Python projects, and are also useful in partitioning the system's namespaces in self-contained packages. They're self-contained because you can only access a module's attributes after importing it. In fact, any Python file with a .py extension represents a module.
+  - When a top-level Python file is run, its source code statements, and the statements within imported modules, are compiled in an intermediate format known as byte code, which is a platform-independent format. Byte code files of imported modules are stored with a .pyc extension in the same directory as the .py file for Python versions up to 3.2.
+
 ### decorator
 + https://www.datacamp.com/community/tutorials/decorators-python
 
