@@ -120,7 +120,10 @@ git checkout c5f567~1 -- file1/to/restore file2/to/restore
 ```
 + checkout a branch 
   - https://confluence.atlassian.com/bitbucket/checkout-a-branch-into-a-local-repository-313466957.html  
-  
+
++ create a branch 
+  - https://confluence.atlassian.com/bitbucket/branching-a-repository-223217999.html
+
 bash
 ---
 + sleep
