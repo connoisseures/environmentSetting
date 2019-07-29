@@ -87,6 +87,9 @@ pool = multiprocessing.Pool(processes=pool_size,
 + mongoDB example
   - https://stackoverflow.com/questions/11832556/writing-a-simple-mongodb-module-in-python
 
+### yaml 
++ https://stackoverflow.com/questions/6866600/how-to-parse-read-a-yaml-file-into-a-python-object
+
 ### list
 + tutorial 
   - http://openbookproject.net/thinkcs/python/english3e/lists.html
