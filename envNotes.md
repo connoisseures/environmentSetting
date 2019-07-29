@@ -54,6 +54,15 @@ $ apt-get install sshfs
 $ sshfs remoteuser@remotehost:/remote/path /local/mountpoint
 And that will let you edit your remote files as if they were on your local file system.
 ```
++ https://superuser.com/questions/964821/translate-permissions-with-as-sshfs-remote-mount
+
+```bash
+sudo sshfs -o allow_other,default_permissions X:/ /mntX
+```
+
+I had tried both allow_other (which gives every user read and write access to the root of the other machine, bad idea) and default_permissions (which does nothing) alone. Turns out that if you combine them then it respects the permissions. Be sure that usernames are the same across machines though or you might allow someone to write into the home directory of another machine of an account he or she doesn't own.
+
+
 To make it even smoother you can add a line to /etc/fstab
 
 + file or folder comparison 
