@@ -49,6 +49,13 @@ $ lc -l | wc -l
 + remote filesystem over ssh 
   - https://stackoverflow.com/questions/2136127/how-to-use-gvim-to-edit-a-remote-file
 
+```bash
+#!/bin/bash
+LOCALPATH=<path1>
+REMOTEPATH=<path2>
+sshfs -o allow_other,default_permissions account@server:$REMOTEPATH $LOCALPATH
+```
+
 ```
 $ apt-get install sshfs
 $ sshfs remoteuser@remotehost:/remote/path /local/mountpoint
