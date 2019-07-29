@@ -58,6 +58,17 @@ And that will let you edit your remote files as if they were on your local file 
 
 ```bash
 sudo sshfs -o allow_other,default_permissions X:/ /mntX
+# fusermount: option allow_other only allowed if 'user_allow_other' is set in /etc/fuse.conf
+```
+```bash
+# /etc/fuse.conf - Configuration file for Filesystem in Userspace (FUSE)
+
+# Set the maximum number of FUSE mounts allowed to non-root users.
+# The default is 1000.
+#mount_max = 1000
+
+# Allow non-root users to specify the allow_other or allow_root mount options.
+user_allow_other
 ```
 
 I had tried both allow_other (which gives every user read and write access to the root of the other machine, bad idea) and default_permissions (which does nothing) alone. Turns out that if you combine them then it respects the permissions. Be sure that usernames are the same across machines though or you might allow someone to write into the home directory of another machine of an account he or she doesn't own.
