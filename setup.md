@@ -72,8 +72,15 @@ watch -n 0.5 nvidia-smi
 + pip show tensorflow 
     ```
     pip uninstall tensorflow
-    Install tensorflow - gpu
-    ```
+    Install tensorflow - gpu 
+  ```
++ or upgrade 
+    - https://stackoverflow.com/questions/42574476/update-tensorflow
+```bash
+(tensorflow)$ pip install --upgrade tensorflow-gpu==1.4.1 # for a specific version
+```
+
+
 + https://www.tensorflow.org/install/pip
     ```
     $ virtualenv --system-site-packages -p python3 ./venv
