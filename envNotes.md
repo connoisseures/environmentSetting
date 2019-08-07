@@ -113,6 +113,8 @@ sudo service lightdm restart
 rsync -rl --info=progress2 SRC_FOLDER DST_FOLDER
 rsync -rL --info=progress2 SRC_FOLDER/ DST_FOLDER
 rsync -avhP dir1/ dir2
+rsync -r --info=progress2 {your folder} {destination}
+
 ```
 
 + best image viwer 
