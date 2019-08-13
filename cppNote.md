@@ -1,6 +1,15 @@
 C++
 ===
 
+### check empty array
+
+```java
+int[] i = ...;
+if (i.length == 0) { } // no elements in the array
+// Though it's safer to check for null at the same time:
+if (i == null || i.length == 0) { }
+```
+
 ### stringstreams 
 + https://www.dreamincode.net/forums/topic/95826-stringstream-tutorial/
     -  stringstream works essentially the same as an input/output file stream. You need the preprocessor directive #include <sstream>, declare a stringstream just like an fstream
