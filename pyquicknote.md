@@ -4,6 +4,16 @@ Python Quick Note
 Notes
 -----------
 
+### slice
++ https://docs.python.org/2.3/whatsnew/section-slices.html
++ https://stackoverflow.com/questions/31633635/what-is-the-meaning-of-inta-1-in-python
+```python
+s='abcd'
+s[::2]
+# 'ac'
+s[::-1]
+# 'dcba'
+```
 ### covention 
 + file naming
   - https://stackoverflow.com/questions/2235173/file-name-path-name-base-name-naming-standard-for-pieces-of-a-path
