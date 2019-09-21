@@ -1,6 +1,28 @@
 C++
 ===
 
+### quick notes
+#### queue
++ que.push()
++ que.front()
++ que.pop()
+
+### sort
++ compare 
+    - compare a < b -> sort in acending order
+
+#### priority_queue
++ https://en.cppreference.com/w/cpp/container/priority_queue
++ compare funcion
+    - compare a > b -> min heap
+    - compare a < b -> max heap
+
+### vector
++ https://stackoverflow.com/questions/2236197/what-is-the-easiest-way-to-initialize-a-stdvector-with-hardcoded-elements
+
+### array
++ https://www.dummies.com/programming/cpp/initializing-an-array-in-c/
+
 ### check empty array
 
 ```java
@@ -9,6 +31,9 @@ if (i.length == 0) { } // no elements in the array
 // Though it's safer to check for null at the same time:
 if (i == null || i.length == 0) { }
 ```
+
+### for 
++ https://beginnersbook.com/2017/08/cpp-for-loop/
 
 ### stringstreams 
 + https://www.dreamincode.net/forums/topic/95826-stringstream-tutorial/
