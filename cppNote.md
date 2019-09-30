@@ -7,6 +7,9 @@ C++
 + que.front()
 + que.pop()
 
+### iterator
++ https://appdividend.com/2019/06/15/cpp-iterators-tutorial-with-example-iterators-in-cpp/
+
 ### sort
 + compare 
     - compare a < b -> sort in acending order
