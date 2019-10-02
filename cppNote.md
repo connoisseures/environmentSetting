@@ -10,6 +10,11 @@ C++
 ### iterator
 + https://appdividend.com/2019/06/15/cpp-iterators-tutorial-with-example-iterators-in-cpp/
 
+### list 
++ https://appdividend.com/2019/06/12/cpp-list-tutorial-with-example-list-in-c-standard-template-library-stl/#push_front
+
++ https://www.studytonight.com/cpp/stl/stl-container-list
+
 ### sort
 + compare 
     - compare a < b -> sort in acending order
