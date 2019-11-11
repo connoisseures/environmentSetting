@@ -88,7 +88,7 @@ To make it even smoother you can add a line to /etc/fstab
 
 + nohup
   - https://unix.stackexchange.com/questions/137759/why-use-nohup-rather-than-exec
-
+  - https://unix.stackexchange.com/questions/45913/is-there-a-way-to-redirect-nohup-output-to-a-log-file-other-than-nohup-out
 + gvim
  - https://askubuntu.com/questions/334219/gvim-produces-error-when-hitting-the-close-window
 
@@ -120,6 +120,12 @@ rsync -r --info=progress2 {your folder} {destination}
 + best image viwer 
   - https://itsfoss.com/image-viewers-linux/
 
+### windows drive on linux
++ https://www.thomas-krenn.com/en/wiki/Mounting_a_Windows_Share_in_Linux
+```bash
+#example 
+admin@adminpc-ubuntu:~$ sudo mount -t cifs //192.168.1.100/freigabe /mnt -o user=testuser
+```
 
 mac
 ---
