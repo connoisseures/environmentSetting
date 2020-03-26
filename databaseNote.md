@@ -29,3 +29,5 @@ mongoDB
         print(doc)
       ## print doc which '_id' filed is equal to 1
   ```
++ is existed and remove
+  - https://stackoverflow.com/questions/9822575/how-to-check-in-pymongo-if-collection-exists-and-if-exists-empty-remove-all-fro
