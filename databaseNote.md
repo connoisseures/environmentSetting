@@ -17,6 +17,8 @@ mongoDB
   - https://www.techyhunger.com/mongodb-unwind-operator-aggregation-stage
   - https://docs.mongodb.com/manual/reference/operator/aggregation/match/
   - https://techbrij.com/mongodb-query-select-filter-child-nested-array
+  - unset
+      - https://stackoverflow.com/questions/15776453/how-to-hide-id-from-aggregation
 + find
   - https://docs.mongodb.com/manual/reference/method/db.collection.find/
   - db.collection.find(query, projection)
@@ -31,3 +33,4 @@ mongoDB
   ```
 + is existed and remove
   - https://stackoverflow.com/questions/9822575/how-to-check-in-pymongo-if-collection-exists-and-if-exists-empty-remove-all-fro
+
