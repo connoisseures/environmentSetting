@@ -92,6 +92,10 @@ pool = multiprocessing.Pool(processes=pool_size,
 ### image
 + remember to close image
   - https://stackoverflow.com/questions/31751464/how-do-i-close-an-image-opened-in-pillow
++ image past
+  - https://stackoverflow.com/questions/28407462/how-to-paste-an-image-onto-a-larger-image-using-pillow
+  - https://note.nkmk.me/en/python-pillow-paste/
+  - https://pillow.readthedocs.io/en/4.1.x/handbook/tutorial.html
 
 ### mongoDB
 + mongoDB example
@@ -118,6 +122,9 @@ listofzeros = [0] * n
   - http://l4wisdom.com/python/python_collection_default.php
 + copy
   - https://stackoverflow.com/questions/2465921/how-to-copy-a-dictionary-and-only-edit-the-copy
+
+#### deep copy
++ https://www.python-course.eu/deep_copy.php
 
 ### library
 + sort
