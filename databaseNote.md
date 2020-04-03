@@ -34,3 +34,5 @@ mongoDB
 + is existed and remove
   - https://stackoverflow.com/questions/9822575/how-to-check-in-pymongo-if-collection-exists-and-if-exists-empty-remove-all-fro
 
++ collection name
+  - https://kb.objectrocket.com/mongo-db/how-to-access-collections-for-a-mongodb-database-using-python-357

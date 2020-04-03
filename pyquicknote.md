@@ -148,6 +148,7 @@ print(sorted(pyDict, reverse=True))
 
 + Using global variables between files
   - https://stackoverflow.com/questions/13034496/using-global-variables-between-files
++ https://stackoverflow.com/questions/4142151/how-to-import-the-class-within-the-same-directory-or-sub-directory
 
 ### decorator
 + https://www.datacamp.com/community/tutorials/decorators-python
