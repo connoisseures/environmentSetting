@@ -172,6 +172,9 @@ print(re.sub(regex, r"\2 of \1", "June 24, August 9, Dec 12"))
 #\2 = 2nd ()
 ```
 
++ https://www.programiz.com/python-programming/regex
++ https://developers.google.com/edu/python/regular-expressions
+
 random
 ---
 + https://docs.python.org/3/library/random.html
@@ -247,6 +250,29 @@ def plot_his(list_of_list, legend, xlabel, ylabel, the_title):
     plt.show()
     return counts, bins, patches
 ```
+
+cv
+---
++ https://kharshit.github.io/blog/2019/09/20/evaluation-metrics-for-object-detection-and-segmentation
++ https://github.com/open-mmlab/mmdetection/tree/master/mmdet/core/evaluation
++ https://tarangshah.com/blog/2018-01-27/what-is-map-understanding-the-statistic-of-choice-for-comparing-object-detection-models/
++ https://github.com/rafaelpadilla/Object-Detection-Metrics/blob/master/lib/Evaluator.py#L315
++ https://github.com/rafaelpadilla/Object-Detection-Metrics
++ https://github.com/Cartucho/mAP/blob/master/main.py
++ https://www.datacamp.com/community/tutorials/object-detection-guide
++ 
+
+
+mAP
+---
++ https://en.wikipedia.org/wiki/Evaluation_measures_(information_retrieval)
++ https://nlp.stanford.edu/IR-book/html/htmledition/evaluation-of-ranked-retrieval-results-1.html
++ https://tarangshah.com/blog/2018-01-27/what-is-map-understanding-the-statistic-of-choice-for-comparing-object-detection-models/
++ https://tarangshah.com/blog/2018-01-27/what-is-map-understanding-the-statistic-of-choice-for-comparing-object-detection-models/
++ https://medium.com/@timothycarlen/understanding-the-map-evaluation-metric-for-object-detection-a07fe6962cf3
++ 
+
+
 
 Q & A
 -----------
