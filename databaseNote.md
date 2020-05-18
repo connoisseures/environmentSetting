@@ -19,6 +19,8 @@ mongoDB
   - https://techbrij.com/mongodb-query-select-filter-child-nested-array
   - unset
       - https://stackoverflow.com/questions/15776453/how-to-hide-id-from-aggregation
+  - project subfiled
+      - https://docs.mongodb.com/manual/reference/operator/aggregation/project/
 + find
   - https://docs.mongodb.com/manual/reference/method/db.collection.find/
   - db.collection.find(query, projection)
