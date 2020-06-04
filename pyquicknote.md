@@ -33,6 +33,9 @@ print("{:8.3f}".format(12.2346))
 states.split(',')
 ```
 
+### numpy
++ https://thatascience.com/learn-numpy/save-numpy-array-to-csv/
+
 ### class
 
 + Structs without constructors:
@@ -122,9 +125,15 @@ listofzeros = [0] * n
   - http://l4wisdom.com/python/python_collection_default.php
 + copy
   - https://stackoverflow.com/questions/2465921/how-to-copy-a-dictionary-and-only-edit-the-copy
++ key
+  - https://thispointer.com/python-how-to-check-if-a-key-exists-in-dictionary/
 
 #### deep copy
 + https://www.python-course.eu/deep_copy.php
+
+
+#### bisect
++ https://github.com/python/cpython/blob/master/Lib/bisect.py
 
 ### library
 + sort
@@ -179,6 +188,10 @@ random
 ---
 + https://docs.python.org/3/library/random.html
 
+
+tips 
+---
++ http://book.pythontips.com/en/latest/enumerate.html
 
 plot
 ---
